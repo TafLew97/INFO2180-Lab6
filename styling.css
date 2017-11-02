@@ -1,0 +1,30 @@
+#header{
+    background-color: darkblue;
+    color: #ffffff;
+    padding: 25px  23px;
+    font-family: "Algerian", cursive;
+    font-size: 2.0em;
+    text-align: center;
+}
+
+.container{
+    background-color: #ffcccc;
+    color: #000000;
+    padding: 15px;
+}
+
+#searchArea{
+    border-bottom: 1px solid #e9e8ed;
+}
+
+#result{
+    font-size: 0.85em;
+    color:seagreen ;
+    font-family:"URW Chancery L", cursive;
+}
+
+#top{
+    font-family:"Marker Felt", fantasy;
+    font-size: 3,7em;
+    
+}
