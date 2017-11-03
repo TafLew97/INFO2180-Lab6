@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-		<title>Lab6_ex3</title>
+		<title>Lab6_ex4</title>
 		<link href="styling.css" type="text/css" rel="stylesheet">
 		<script src="exer.js" type="text/javascript"></script>
 	</head>
@@ -13,9 +13,10 @@
                 <form onsubmit="javascript:search();return false;" >
                     <input type="text" id="queryTxtBox" autofocus >
                     <input type="button" id="btnSearch" value="Search" onclick="search()" >
+                    <input type="button" id="btnSearchAll" value="Get All Definitions" onclick="searchall(true)" >
                 </form><br>
             </div>
-            <strong>RESULT</strong>
+            <h2><strong>RESULT</strong></h2>
             <div id="result"></div>
         </div>
     </body>
